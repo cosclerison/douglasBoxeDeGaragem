@@ -1,0 +1,33 @@
+#contatos input {
+    margin-bottom: .7rem;
+    overflow: hidden;
+}
+
+.contatos-title h2 {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.button-envio {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #95989a;
+    border-radius: 10px;
+}
+
+.address-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 468px) {
+    iframe {
+        width: 20rem;
+        height: 20rem;
+    }
+}

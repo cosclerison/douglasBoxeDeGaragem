@@ -1,0 +1,38 @@
+#sobre {
+    width: 100%;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #5d5d5d, #fff);
+    overflow: hidden;
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre img {
+    border-radius: 10px;
+}
+
+.text-sobre h2 {
+    margin-top: 5rem;
+}
+
+.text-sobre {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.profileText {
+    margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 468px) {
+    #sobre {
+        height:auto;
+    }
+}

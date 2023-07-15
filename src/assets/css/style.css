@@ -1,0 +1,220 @@
+/*  
+  “xs” 768px, 
+  “sm” 768px até 992px, 
+  “md” 992px até 1200px 
+  “lg” acima de 1200px.
+*/
+
+:root {
+    --primary: #00baf2;
+    --secondary: #95989a;
+    --text-color: #fff;
+    --text-secondary: #000;
+    --text-tertiary: #5d5d5d;
+}
+  * {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: auto;
+    height: 3rem;
+}
+
+.navbar {
+    background-color: red;
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+.navbar-brand {
+    margin-left: 2rem;
+}
+
+.navbar-collapse {
+    margin-right: 2rem;
+}
+
+#header {margin-top: 2rem;
+    width: 100%;
+    height: 90vh;
+    background: 
+    url(../img/background/logo-background.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--text-color);
+    text-align: center;
+    overflow: hidden;
+}
+
+#sobre {
+    width: 100%;
+    height: 99vh;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #5d5d5d, #fff);
+    overflow: hidden;
+}
+
+.sobre {
+    margin-left: 15rem;
+}
+
+.sobre img {
+    border-radius: 10px;
+}
+
+.text-sobre h2 {
+    margin-top: 5rem;
+}
+
+.text-sobre {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#video {
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.videos-treino h2 {
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.videos-treino h4 {
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.videos-treino label {
+   font-weight: bold;
+   margin-bottom: .5rem;
+}
+
+.videos-treino video {
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+
+#contatos input {
+    margin-bottom: .7rem;
+    overflow: hidden;
+}
+
+.contatos-title h2 {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.button-envio {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fotos{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #5d5d5d, #fff);
+    overflow: hidden;
+}
+
+#carousel {
+   margin-left: 2rem;
+}
+
+.img-desktop {
+    margin-top: 2rem;
+    width: 30rem;
+    height: 20rem;
+    border-radius:10px;
+}
+
+.fotos img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 220px;
+    height:200px;
+    margin-bottom: 1rem;
+}
+
+.fotos-grid h2 {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+footer {
+    margin-top: 2rem;
+    width: 90%;
+    height: 6rem;
+    /* margin-bottom: 1rem; */
+    background-image: linear-gradient(to right, #5d5d5d, #fff);
+    overflow: hidden;
+}
+
+.footer-social {
+    /* display: flexbox; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.footer-social img {
+    max-width: 3rem;
+    border: 1px solid white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 0px rgba(34, 34, 34, .5);
+    transition: .3s;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 3rem;
+    z-index: 99;
+}
+
+.whatsapp img {
+    max-width: 4rem;
+    border: 1px solid white;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+
+@media screen and (max-width: 468px) {
+    .sobre img {
+        margin-left: -5rem;
+        border-radius: 10px;
+    }
+    .detail-description {
+        margin-right: 5rem;
+    }
+    .videos-treino iframe {
+        margin-left: 5rem;
+    }
+    
+    .img-desktop {
+        margin-top: 2rem;
+        width: 30rem;
+        height: 20rem;
+    }
+}

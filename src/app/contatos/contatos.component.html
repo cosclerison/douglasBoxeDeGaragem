@@ -1,0 +1,54 @@
+<section id="contatos" class="container">
+    <div class="row contatos-title justify-content-around">
+      <h2><strong>Contatos</strong></h2><br />
+      <div class="col-md-5 formulario-envio">
+          <h6><strong>Preencha o formulário para entrarmos em contato com você!</strong></h6><br />
+          <form action ="https://formsubmit.co/boxedegaragempoa@gmail.com" method="POST">
+            <div class="form-group">
+              <label for="name">Nome</label>
+              <input type="text" name="nome" class="form-control" placeholder="Digite seu nome" required/>
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" name="email" class="form-control" placeholder="Digite seu melhor e-mail" required/>
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefone</label>
+              <input type="text" name="phone" class="form-control" placeholder="Número de Whatsapp" required />
+            </div>
+            <div class="form-group">
+              <label for="interest">Principal interesse</label>
+              <select name="interest" class="form-control">
+                <option value="" disabled selected>Selecione</option>
+                <option value="Aulas ">Aulas</option>
+                <option value="Produtos">Produtos</option>
+                <option value="ProjetoSocial ">Projeto Social</option>
+                <option value="Outros">Outros</option>
+              </select>
+            </div>
+            <div class="button-envio">
+              <input type="submit" class="btn" value="Enviar" />
+            </div>
+          </form>
+        </div>
+       
+        <div class="col-md-4 col-sm-10 col-xs-10 localizacao-map text-center">
+          <h6><strong>Nossa localização</strong></h6><br />
+          <div id="address">
+            <i class="bi bi-geo-alt-fill"></i>
+            <div id="address-details">
+              <p>Rua Dr. Luiz Pereira Barreto, 907 - Vila Aurea - Poá</p>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.389024476271!2d-46.35322662535987!3d-23.51850646001783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce7b2500862afb%3A0x9b6174126c4acaa1!2sRua%20Dr.%20Luiz%20Pereira%20Barreto%2C%20907%20-%20Jardim%20Medina%2C%20Po%C3%A1%20-%20SP%2C%2008551-347!5e0!3m2!1spt-BR!2sbr!4v1683835605615!5m2!1spt-BR!2sbr" 
+                width="400" 
+                height="300" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
